@@ -1,18 +1,13 @@
 {"spell": [{
-  "duration": [{
-    "duration": {
-      "amount": 1,
-      "type": "round"
-    },
-    "type": "timed"
-  }],
+  "duration": [{"type": "instant"}],
   "components": {"v": true},
   "entries": [
-    "You summon a shard of vile energy and plunge it into a nearby foe. You teleport to an unoccupied location in range and make a melee spell attack at a creature within in reach, dealing {@dice 1d8} poison damage on a hit. After your attack you immediately teleport back to your original location.",
-    "The spell's damage increases by {@dice 1d8} when you reach 5th level ({@dice 2d8}), 11th level ({@dice 3d8}), and 17th level ({@dice 4d8})."
+    "As part of the action used to cast this spell, you must make a ranged attack with a melee weapon against one creature within the spell's range, otherwise the spell fails. Your magic accelerates your weapon to uncannny speeds over the course of its trajectory. On a hit, the target suffers the attack's normal effects. If this attack is at long range it isn't at disadvantage and deals additional piercing damage equal to your spellcasting modifier.",
+    "Alternatively, you can cast this cantrip on a weapon that doesn't have the thrown property. It gains a thrown range of 20/60 until the end of your next turn and floats in the air close at hand, vibrating softly.",
+    "This spell's damage increases when you reach higher levels. At 5th level, the attack deals an extra {@dice 1d8} piercing damage to the target, and the damage of the spell if the the target is at long range increases to {@dice 1d8} + your spellcasting modifier. Both damage rolls increase by {@dice 1d8} at 11th level and 17th level."
   ],
   "level": 0,
-  "school": "C",
+  "school": "V",
   "classes": {"fromClassList": [
     {
       "name": "Wizard",
@@ -43,10 +38,10 @@
       "source": "PHB"
     }
   ]},
-  "name": "Witchblade",
+  "name": "Sending Blade",
   "range": {
     "distance": {
-      "amount": "5",
+      "amount": "60",
       "type": "feet"
     },
     "type": "point"
@@ -56,5 +51,5 @@
     "unit": "action"
   }],
   "source": "Hombrew Spells",
-  "damageInflict": ["poison"]
+  "damageInflict": ["piercing"]
 }]}
