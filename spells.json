@@ -1,7 +1,7 @@
 {"spell": [{
   "duration": [{
     "duration": {
-      "amount": "round",
+      "amount": 1,
       "type": "round"
     },
     "type": "timed"
