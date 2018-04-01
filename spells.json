@@ -51,5 +51,10 @@
     "unit": "action"
   }],
   "source": "Hombrew Spells",
-  "damageInflict": ["piercing"]
+  "damageInflict": ["piercing"],
+  "data": {
+        "Damage Type": "piercing",
+        "Damage Progression": "Cantrip Dice",
+        "Add Casting Modifier": "Yes"
+      }
 }]}
