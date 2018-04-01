@@ -1,10 +1,6 @@
 {"spell": [{
   "duration": [{
-    "duration": {
-      "amount": 1,
-      "type": "round"
-    },
-    "type": "timed"
+    "type": "instant"
   }],
   "components": {"v": true},
   "entries": [
