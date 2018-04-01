@@ -11,7 +11,7 @@
     "You summon a shard of vile energy and plunge it into a nearby foe. You teleport to an unoccupied location in range and make a melee spell attack at a creature within in reach, dealing {@dice 1d8} poison damage on a hit. After your attack you immediately teleport back to your original location.",
     "The spell's damage increases by {@dice 1d8} when you reach 5th level (2d8), 11th level (3d8), and 17th level (4d8)."
   ],
-  "level": "0",
+  "level": 0,
   "school": "C",
   "classes": {"fromClassList": [
     {
