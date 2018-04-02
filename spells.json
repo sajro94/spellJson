@@ -51,10 +51,14 @@
     "unit": "action"
   }],
   "source": "Hombrew Spells",
-  "damageInflict": ["piercing"],
-  "data": {
+  "damageInflict": ["piercing"]
+}
+,{
+    "name":"Sending Blade",
+    "data": {
         "Damage Type": "piercing",
         "Damage Progression": "Cantrip Dice",
         "Add Casting Modifier": "Yes"
       }
-}]}
+  }]}
+
