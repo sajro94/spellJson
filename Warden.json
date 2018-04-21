@@ -1,0 +1,350 @@
+{
+	"_meta":{
+		"sources":[
+			{
+				"json": "Warden",
+				"abbreviation": "brew",
+				"full": "Warden",
+				"authors":[
+					"Steven Fidler"
+				],
+				"version": "2.1",
+				"url": "https://drive.google.com/file/d/1XKnQu_8_HEav2RK55e0awi_xAZGkH_lA/view",
+				"targetSchema": "1.0.0"
+			}
+		]
+	},
+	"class":[
+		{
+			"name": "Warden",
+			"source": "Warden",
+			"hd": {
+				"number": 1,
+				"faces": 10
+			},
+			"proficiency": [
+				"wis",
+				"str"
+			],
+			"classTableGroups":[
+				{
+					"subclasses":[
+						{
+							"name": "Combat Discipline",
+							"source": "Warden"
+						}
+					],
+					"colLabels":[
+						"Power Dies",
+						"Power Die",
+						"Spells Known",
+						"Spell Slots",
+						"Slot Level"
+					],
+					"rows":[
+						[
+							4,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							"-",
+							"-",
+							"-"
+						],
+						[
+							4,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2,
+							1,
+							"1st"
+						],
+						[
+							4,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2,
+							1,
+							"1st"
+						],
+						[
+							4,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 4
+									}
+								]
+							},
+							2,
+							1,
+							"1st"
+						],
+						[
+							5,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							3,
+							2,
+							"2nd"
+						],
+						[
+							5,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							3,
+							2,
+							"2nd"
+						],
+						[
+							5,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							4,
+							2,
+							"2nd"
+						],
+						[
+							5,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							4,
+							2,
+							"2nd"
+						],
+						[
+							6,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							5,
+							2,
+							"3rd"
+						],
+						[
+							6,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							5,
+							2,
+							"3rd"
+						],
+						[
+							6,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 6
+									}
+								]
+							},
+							6,
+							2,
+							"3rd"
+						],
+						[
+							6,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							6,
+							2,
+							"3rd"
+						],
+						[
+							7,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							7,
+							3,
+							"4th"
+						],
+						[
+							7,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							7,
+							3,
+							"4th"
+						],
+						[
+							7,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							8,
+							3,
+							"4th"
+						],
+						[
+							7,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 8
+									}
+								]
+							},
+							8,
+							3,
+							"4th"
+						],
+						[
+							8,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							9,
+							3,
+							"5th"
+						],
+						[
+							8,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							9,
+							3,
+							"5th"
+						],
+						[
+							8,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							10,
+							3,
+							"5th"
+						],
+						[
+							8,
+							{
+								"type": "dice",
+								"toRoll":[
+									{
+										"number": 1,
+										"faces": 10
+									}
+								]
+							},
+							10,
+							3,
+							"5th"
+						]
+					]
+				}
+			]
+		}
+	]
+}
