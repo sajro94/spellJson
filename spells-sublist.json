@@ -1,0 +1,80 @@
+{
+	"items": [
+		{
+			"h": "mage%20armor_phb"
+		},
+		{
+			"h": "magic%20missile_phb"
+		},
+		{
+			"h": "shield_phb"
+		},
+		{
+			"h": "absorb%20elements_xge"
+		},
+		{
+			"h": "detect%20magic_phb"
+		},
+		{
+			"h": "disguise%20self_phb"
+		},
+		{
+			"h": "expeditious%20retreat_phb"
+		},
+		{
+			"h": "longstrider_phb"
+		},
+		{
+			"h": "shadow%20blade_xge"
+		},
+		{
+			"h": "see%20invisibility_phb"
+		},
+		{
+			"h": "misty%20step_phb"
+		},
+		{
+			"h": "cloud%20of%20daggers_phb"
+		},
+		{
+			"h": "haste_phb"
+		},
+		{
+			"h": "gaseous%20form_phb"
+		},
+		{
+			"h": "blink_phb"
+		},
+		{
+			"h": "water%20breathing_phb"
+		},
+		{
+			"h": "stoneskin_phb"
+		},
+		{
+			"h": "locate%20creature_phb"
+		},
+		{
+			"h": "hallucinatory%20terrain_phb"
+		},
+		{
+			"h": "fire%20shield_phb"
+		},
+		{
+			"h": "wall%20of%20force_phb"
+		},
+		{
+			"h": "far%20step_xge"
+		},
+		{
+			"h": "animate%20objects_phb"
+		},
+		{
+			"h": "conjure%20elemental_phb"
+		}
+	],
+	"sources": [
+		"PHB",
+		"XGE"
+	]
+}
